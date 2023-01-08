@@ -1,0 +1,6 @@
+<router-outlet></router-outlet>
+<app-header></app-header>
+<!– ngFor permite generar muchos elementos HTML repetidos a partir del reccorido de un arreglo de datos –>
+<div class="grid">
+  <app-card *ngFor="let card of ArregloTarjetas"></app-card>
+</div>
